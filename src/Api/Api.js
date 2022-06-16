@@ -35,7 +35,7 @@ const Api = {
     callApi(`${API}/api/hotel/${id}`),
   Booking: (hotelID, from, to) =>
     callApi(`${API}/api/booking/`, { hotelID, from, to }, "POST"),
-    GetBooking: () =>
+  GetBooking: () =>
     callApi(`${API}/api/booking`),
 
 
